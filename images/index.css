@@ -22,7 +22,7 @@
   width: 100%;
   .img {
     background-image:
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/23.jpg");
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./23.jpg");
     position: relative;
     background-position: center;
     background-size: cover;
