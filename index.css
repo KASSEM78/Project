@@ -645,8 +645,12 @@
   .container {
     padding-left: 100px !important;
     padding-right: 100px !important;
+    @media screen and (max-width: 992px) {
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+    }
     .top {
-      padding-bottom: 20px;
+      padding-bottom: 30px;
       p {
         color: #91765a;
         font-size: 12px;
@@ -672,7 +676,9 @@
             }
             .dots {
               margin: 0 18px;
-              color: rgba(145, 118, 90, 0.3);
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
             }
             .price {
               font-size: 17px;
@@ -697,7 +703,9 @@
             }
             .dots {
               margin: 0 18px;
-              color: rgba(145, 118, 90, 0.3);
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
             }
             .price {
               font-size: 17px;
@@ -712,6 +720,235 @@
             color: #625c56;
           }
         }
+        .div3 {
+          .divTh {
+            .talk {
+              font-size: 17px;
+              font-weight: 800;
+              color: #14100c;
+              margin-bottom: 7px;
+            }
+            .dots {
+              margin: 0 18px;
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
+            }
+            .price {
+              font-size: 17px;
+              font-weight: 800;
+              color: #91765a;
+              margin-bottom: 7px;
+            }
+          }
+          .lorem {
+            font-size: 15px;
+            font-weight: 300;
+            color: #625c56;
+          }
+        }
+        .div4 {
+          .divF {
+            .talk {
+              font-size: 17px;
+              font-weight: 800;
+              color: #14100c;
+              margin-bottom: 7px;
+            }
+            .dots {
+              margin: 0 18px;
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
+            }
+            .price {
+              font-size: 17px;
+              font-weight: 800;
+              color: #91765a;
+              margin-bottom: 7px;
+            }
+          }
+          .lorem {
+            font-size: 15px;
+            font-weight: 300;
+            color: #625c56;
+          }
+        }
+      }
+      .right {
+        .div1 {
+          .divO {
+            .talk {
+              font-size: 17px;
+              font-weight: 800;
+              color: #14100c;
+              margin-bottom: 7px;
+            }
+            .dots {
+              margin: 0 18px;
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
+            }
+            .price {
+              font-size: 17px;
+              font-weight: 800;
+              color: #91765a;
+              margin-bottom: 7px;
+            }
+          }
+          .lorem {
+            font-size: 15px;
+            font-weight: 300;
+            color: #625c56;
+          }
+        }
+        .div2 {
+          .divT {
+            .talk {
+              font-size: 17px;
+              font-weight: 800;
+              color: #14100c;
+              margin-bottom: 7px;
+            }
+            .dots {
+              margin: 0 18px;
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
+            }
+            .price {
+              font-size: 17px;
+              font-weight: 800;
+              color: #91765a;
+              margin-bottom: 7px;
+            }
+          }
+          .lorem {
+            font-size: 15px;
+            font-weight: 300;
+            color: #625c56;
+          }
+        }
+        .div3 {
+          .divTh {
+            .talk {
+              font-size: 17px;
+              font-weight: 800;
+              color: #14100c;
+              margin-bottom: 7px;
+            }
+            .dots {
+              margin: 0 18px;
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
+            }
+            .price {
+              font-size: 17px;
+              font-weight: 800;
+              color: #91765a;
+              margin-bottom: 7px;
+            }
+          }
+          .lorem {
+            font-size: 15px;
+            font-weight: 300;
+            color: #625c56;
+          }
+        }
+        .div4 {
+          .divF {
+            .talk {
+              font-size: 17px;
+              font-weight: 800;
+              color: #14100c;
+              margin-bottom: 7px;
+            }
+            .dots {
+              margin: 0 18px;
+              border-bottom: 1px dotted #91765a4d;
+              height: 10px;
+              flex: 1;
+            }
+            .price {
+              font-size: 17px;
+              font-weight: 800;
+              color: #91765a;
+              margin-bottom: 7px;
+            }
+          }
+          .lorem {
+            font-size: 15px;
+            font-weight: 300;
+            color: #625c56;
+          }
+        }
+      }
+    }
+  }
+}
+
+#sec9 {
+  width: 100%;
+  .img {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(./images/5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    @media screen and (max-width: 992px) {
+      background-attachment: scroll;
+    }
+    .container {
+      padding: 120px 0;
+      h1 {
+        padding: 0 325px;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 800;
+        color: white;
+        @media screen and (min-width: 768px) and (max-width: 992px) {
+          padding: 0 160px;
+        }
+        @media screen and (max-width: 767px) {
+          font-size: 27px;
+          padding: 0;
+        }
+      }
+      svg {
+        cursor: pointer;
+        margin-top: 20px;
+        transition: all 0.3s ease ;
+        fill: white;
+      }
+      svg:hover{
+      /* stroke: #91765a; */
+      fill: #91765a;
+      }
+    }
+  }
+}
+
+#sec10{
+  background-color: #f5eee7;
+  width: 100%;
+  padding: 120px 0;
+  .container{
+    .col-12{
+      p{
+        margin-bottom: 0;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: #91765a;
+        text-transform: uppercase;
+      }
+      h2{
+        color: #14100c;
+        font-size: 48px;
+        font-weight: 800;
       }
     }
   }
