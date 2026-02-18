@@ -936,6 +936,10 @@
   width: 100%;
   padding: 120px 0;
   .container{
+    padding: 0 100px !important;
+    @media screen and (max-width:992px) {
+      padding: 0 12px !important;
+    }
     .col-12{
       p{
         margin-bottom: 0;
