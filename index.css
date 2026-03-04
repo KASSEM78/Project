@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
+body {
+  background-color: #f5eee7;
+}
 .fs-15 {
   font-size: 15px;
 }
@@ -1327,6 +1330,9 @@
   background: linear-gradient(to bottom, #14100c 65%, #f5eee7 35%);
   .container {
     padding: 0 100px !important;
+    @media screen and (max-width: 992px) {
+      padding: 0 12px !important;
+    }
     .top {
       p {
         color: #91765a;
@@ -1344,6 +1350,9 @@
     }
     .bottom {
       .img1 {
+        img {
+          transition: all 0.3s ease;
+        }
         .date {
           background-color: #91765a;
           top: 20px;
@@ -1362,12 +1371,19 @@
           }
         }
         .desc {
+          transition: all 0.3s ease;
           background-color: white;
           padding: 30px;
           bottom: 0;
           left: 50%;
           transform: translate(-50%, 50%);
           width: 85%;
+          @media screen and (min-width: 768px) and (max-width: 992px) {
+            width: 75%;
+          }
+          @media screen and (max-width: 767px) {
+            width: 80%;
+          }
           p {
             font-size: 12px;
             letter-spacing: 2px;
@@ -1381,17 +1397,20 @@
           }
         }
       }
-      .img1:hover{
-        img{
+      .img1:hover {
+        img {
           filter: brightness(80%);
           transition: all 0.3s ease;
         }
-        .desc{
+        .desc {
           bottom: 100px;
           transition: all 0.3s ease;
         }
       }
       .img2 {
+        img {
+          transition: all 0.3s ease;
+        }
         .date {
           background-color: #91765a;
           top: 20px;
@@ -1410,12 +1429,16 @@
           }
         }
         .desc {
+          transition: all 0.3s ease;
           background-color: white;
           padding: 30px;
           bottom: 0;
           left: 50%;
           transform: translate(-50%, 50%);
           width: 85%;
+          @media screen and (min-width: 768px) and (max-width: 992px) {
+            width: 75%;
+          }
           p {
             font-size: 12px;
             letter-spacing: 2px;
@@ -1429,15 +1452,119 @@
           }
         }
       }
-      .img2:hover{
-        img{
+      .img2:hover {
+        img {
           filter: brightness(80%);
           transition: all 0.3s ease;
         }
-        .desc{
+        .desc {
           bottom: 100px;
           transition: all 0.3s ease;
         }
+      }
+    }
+  }
+}
+
+#sec14 {
+  margin-top: 100px;
+  width: 100%;
+  /* height: 100vh; */
+  .img {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./images/888888888888888.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    @media screen and (max-width: 992px) {
+      background-attachment: scroll;
+    }
+    .container {
+      padding: 120px 100px !important;
+      @media screen and (max-width: 992px) {
+        padding: 120px 12px !important;
+      }
+      .left {
+        width: 100%;
+        padding-top: 5rem;
+        h2 {
+          font-size: 27px;
+          color: white;
+          font-weight: 800;
+          width: 100%;
+          @media screen and (min-width:768px) and (max-width:992px) {
+            width: 133%;
+          }
+        }
+        .bottom {
+          img {
+            width: 60px;
+            height: 60px;
+          }
+          .talk {
+            .appoint {
+              font-size: 12px;
+              margin-bottom: 0;
+              font-weight: 800;
+              letter-spacing: 2px;
+              color: #91765a;
+              text-transform: uppercase;
+            }
+            .num {
+              font-size: 27px;
+              margin-bottom: 0;
+              font-weight: 800;
+              color: white;
+              @media screen and (min-width:768px) and (max-width:992px){
+                width: 150%;
+              }
+            }
+          }
+        }
+      }
+      .right {
+        .form {
+          background-color: #f5eee7;
+          h2 {
+            padding-top: 1rem;
+            font-size: 27px;
+            color: #14100c;
+            margin-bottom: 30px;
+            font-weight: 800;
+          }
+          .row {
+            button {
+              width: 100%;
+              background-color: #91765a;
+              color: white;
+              border: none;
+              padding: 15px 10px;
+              transition: all 0.5s ease;
+              margin-bottom: 2.5rem;
+              font-weight: 800;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              font-size: 12px;
+            }
+            button:hover {
+              background-color: #14100c;
+              transition: all 0.5s ease;
+            }
+          }
+        }
+      }
+    }
+    .colored{
+      background-color: #91765A;
+      justify-content: space-between !important;
+      img{
+        width: 160px;
+        max-width: 25% !important;
+      }
+      @media screen and (min-width:993px) {
+        margin-top: -200px;
+        padding-left: 180px !important;
+        justify-content: flex-start !important;
       }
     }
   }

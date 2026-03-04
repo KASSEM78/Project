@@ -1,5 +1,4 @@
 window.addEventListener("scroll", function () {
-  // بنختار العنصر اللي واخد كلاس header
   const header = document.querySelector(".js");
 
   if (window.scrollY > 50) {
